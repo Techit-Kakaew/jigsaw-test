@@ -1,6 +1,6 @@
 import { ref } from 'vue'
 
-const isShowSidebar = ref<boolean>(JSON.parse(localStorage.getItem('isShowSidebar') || 'false'))
+const isShowSidebar = ref<boolean>(JSON.parse(localStorage.getItem('isShowSidebar') || 'true'))
 const sidebarTitle = ref<string>('')
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
