@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "target": "es5",
     "module": "esnext",
     "strict": true,
     "jsx": "preserve",
+    "resolveJsonModule": true,
     "importHelpers": true,
     "moduleResolution": "node",
     "skipLibCheck": true,

@@ -1,0 +1,14 @@
+body {
+    @media (max-width: 1024px) {
+      width: 1024px;
+    }
+}
+.btn, .form-select {
+  &:focus {
+    box-shadow: unset;
+  }
+  &.btn-disabled {
+    pointer-events: unset !important;
+    cursor: not-allowed !important;
+  }
+}
