@@ -69,7 +69,7 @@
                     <option value="75">75</option>
                 </select>
                 <div class="text">
-                    {{ `Display ${offset + 1}${currentPage * pageSize > items.length ? '' : `-${currentPage * pageSize}`} from ${items.length}` }}
+                    {{ `Display ${offset + 1}${currentPage * pageSize > items.length ? `-${items.length}` : `-${currentPage * pageSize}`} from ${items.length}` }}
                 </div>
             </div>
         </div>
