@@ -130,7 +130,7 @@ export default defineComponent({
 <style lang="scss" scoped>
     .custom-table {
         .table-fix {
-            height: calc(100vh - 257px);
+            height: calc(100vh - 346px);
             overflow: auto;
             .table {
                 border-collapse: collapse;

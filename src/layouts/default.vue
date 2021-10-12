@@ -6,6 +6,7 @@
         </transition>
         <div class="container-layout">
             <router-view />
+            <Footer />
         </div>
     </div>
 </template>
@@ -14,13 +15,15 @@
 import { defineComponent } from 'vue'
 import NavBar from '@/components/layouts/NavBar.vue'
 import SideBar from '@/components/layouts/Sidebar.vue'
+import Footer from '@/components/layouts/Footer.vue'
 import { useSidebar } from '@/use/useSidebar'
 
 export default defineComponent({
     name: 'default-layout',
     components: {
         NavBar,
-        SideBar
+        SideBar,
+        Footer
     },
     setup() {
         const { isShowSidebar } = useSidebar()

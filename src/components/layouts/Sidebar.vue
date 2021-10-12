@@ -194,11 +194,12 @@ export default defineComponent({
         position: sticky;
         top: 75px;
         left: 0;
-        width: 300px;
+        width: 400px;
         height: calc(100vh - 75px);
         background: #171c2d;
         @media (max-width: 1024px) {
             position: fixed;
+            width: 300px;
             z-index: 100;
         }
         >.header {
